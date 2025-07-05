@@ -45,7 +45,7 @@ class _BookingHistoryPageState extends State<BookingHistoryPage> {
           children: [
             TextField(
               controller: locationController,
-              decoration: InputDecoration(labelText: "Location"),
+              decoration: InputDecoration(labelText: "Vị trí"),
             ),
             TextField(
               controller: userCountController,
