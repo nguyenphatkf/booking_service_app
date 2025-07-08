@@ -96,7 +96,7 @@ class Home extends StatelessWidget {
             ],
           ),
           Text(
-            "Which service do\n you need?",
+            "Bạn cần dịch vụ nào?",
             style: TextStyle(
               color: const Color.fromARGB(255, 6, 95, 140),
               fontSize: 30.0,
@@ -113,7 +113,7 @@ class Home extends StatelessWidget {
             child: TextField(
               decoration: InputDecoration(
                 border: InputBorder.none,
-                hintText: "How can I help U?",
+                hintText: "Tôi có thể giúp gì cho bạn?",
                 hintStyle: TextStyle(color: Colors.black45),
                 suffixIcon: Icon(Icons.search),
               ),
